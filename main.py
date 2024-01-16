@@ -2,7 +2,7 @@ def generate_hashtag(str):
     result = ""
 
     for word in str.split() : 
-        result += word.lower().capitalize()
+        result += word.capitalize()
 
     if len(result) >= 140 or str == "":
         return False
